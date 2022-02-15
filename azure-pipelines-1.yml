@@ -26,3 +26,8 @@ steps:
     testType: 'app'
     monitorWhen: 'always'
     failOnIssues: true
+
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'WhiteSource_integration'
