@@ -18,7 +18,3 @@ steps:
     monitorWhen: 'always'
     failOnIssues: true
 
-- task: WhiteSource@21
-  inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: '123'
