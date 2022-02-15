@@ -30,4 +30,4 @@ steps:
 - task: WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'WhiteSource_integration'
+    projectName: 'WhiteSource_integration2022'
