@@ -16,4 +16,4 @@ steps:
     serviceConnectionEndpoint: 'rishu_snyk'
     testType: 'app'
     monitorWhen: 'always'
-    failOnIssues: true
+    failOnIssues: false
